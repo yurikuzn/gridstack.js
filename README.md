@@ -1,6 +1,9 @@
 # gridstack.js for Espo
 
-Changed `webpack.config.js`.
+Changes:
+
+* `webpack.config.js`
+* `package.json` – added `prepare` script
 
 # gridstack.js
 
