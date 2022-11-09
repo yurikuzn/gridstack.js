@@ -1,3 +1,7 @@
+# gridstack.js for Espo
+
+Changed `webpack.config.js`.
+
 # gridstack.js
 
 [![NPM version](https://img.shields.io/npm/v/gridstack.svg)](https://www.npmjs.com/package/gridstack)

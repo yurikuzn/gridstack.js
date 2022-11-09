@@ -33,5 +33,16 @@ module.exports = {
     library: 'GridStack',
     libraryExport: 'GridStack',
     libraryTarget: 'umd', // var|assign|this|window|self|global|commonjs|commonjs2|commonjs-module|amd|amd-require|umd|umd2|jsonp|system
+  },
+  // Espo
+  externals: {
+      jquery: 'jQuery',
+      'jquery-ui': 'jQueryUi',
+      'jquery.ui': 'jQueryUi',
+      'jquery.ui.touch-punch': 'jQueryUiTP'
+  },
+  // Espo
+  optimization: {
+      minimize: false
   }
 };
