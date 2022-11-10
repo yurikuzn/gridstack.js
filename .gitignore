@@ -3,7 +3,7 @@
 *.zip
 .npmrc
 coverage
-dist
+dist/*
 node_modules
 .vscode
 !dist/gridstack-jq.js
