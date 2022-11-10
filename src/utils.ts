@@ -309,6 +309,10 @@ export class Utils {
 
   /** @internal */
   static updateScrollPosition(el: HTMLElement, position: {top: number}, distance: number): void {
+    // Espo
+    // fixes fast scroll issue
+    return;
+
     // is widget in view?
     let rect = el.getBoundingClientRect();
     let innerHeightOrClientHeight = (window.innerHeight || document.documentElement.clientHeight);
@@ -352,6 +356,10 @@ export class Utils {
    * @param distance Distance from the V edges to start scrolling
    */
   static updateScrollResize(event: MouseEvent, el: HTMLElement, distance: number): void {
+    // Espo
+    // fixes fast scroll issue
+    return;
+
     const scrollEl = this.getScrollElement(el);
     const height = scrollEl.clientHeight;
     // #1727 event.clientY is relative to viewport, so must compare this against position of scrollEl getBoundingClientRect().top

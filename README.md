@@ -1,9 +1,17 @@
 # gridstack.js for Espo
 
-Changes:
+Changes (grep `Espo`):
 
 * `webpack.config.js`
-* `package.json` – added `prepare` script
+* `gridstack/utils.ts`
+
+Building:
+
+```
+rm -rf dist/* && grunt && yarn build:es6
+```
+
+`dist/gridstack-jq.js` should be commited.
 
 # gridstack.js
 
