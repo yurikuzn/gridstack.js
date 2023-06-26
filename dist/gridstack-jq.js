@@ -1,13 +1,13 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("jQuery"), require("jQueryUi"), require("jQueryUiTP"));
+		module.exports = factory(require("jquery"), require("jquery-ui"), require("jquery-ui-touch-punch"));
 	else if(typeof define === 'function' && define.amd)
-		define(["jQuery", "jQueryUi", "jQueryUiTP"], factory);
+		define(["jquery", "jquery-ui", "jquery-ui-touch-punch"], factory);
 	else if(typeof exports === 'object')
-		exports["GridStack"] = factory(require("jQuery"), require("jQueryUi"), require("jQueryUiTP"));
+		exports["GridStack"] = factory(require("jquery"), require("jquery-ui"), require("jquery-ui-touch-punch"));
 	else
-		root["GridStack"] = factory(root["jQuery"], root["jQueryUi"], root["jQueryUiTP"]);
-})(self, function(__WEBPACK_EXTERNAL_MODULE__609__, __WEBPACK_EXTERNAL_MODULE__403__, __WEBPACK_EXTERNAL_MODULE__399__) {
+		root["GridStack"] = factory(root["jquery"], root["jquery-ui"], root["jquery-ui-touch-punch"]);
+})(self, function(__WEBPACK_EXTERNAL_MODULE__273__, __WEBPACK_EXTERNAL_MODULE__946__, __WEBPACK_EXTERNAL_MODULE__858__) {
 return /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
@@ -3149,10 +3149,10 @@ const gridstack_dd_1 = __webpack_require__(21);
 //   'jquery.ui': 'gridstack/dist/jq/jquery-ui.js',
 //   'jquery.ui.touch-punch': 'gridstack/dist/jq/jquery.ui.touch-punch.js',
 // },
-const $ = __webpack_require__(609); // compile this in... having issues TS/ES6 app would include instead
+const $ = __webpack_require__(273); // compile this in... having issues TS/ES6 app would include instead
 exports.$ = $;
-__webpack_require__(403);
-__webpack_require__(399); // include for touch mobile devices
+__webpack_require__(946);
+__webpack_require__(858); // include for touch mobile devices
 // export our base class (what user should use) and all associated types
 __exportStar(__webpack_require__(21), exports);
 /**
@@ -3692,24 +3692,24 @@ const skipFields = ['_isNested', 'el', 'grid', 'subGrid', 'engine'];
 
 /***/ }),
 
-/***/ 609:
+/***/ 273:
 /***/ ((module) => {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__609__;
+module.exports = __WEBPACK_EXTERNAL_MODULE__273__;
 
 /***/ }),
 
-/***/ 403:
+/***/ 946:
 /***/ ((module) => {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__403__;
+module.exports = __WEBPACK_EXTERNAL_MODULE__946__;
 
 /***/ }),
 
-/***/ 399:
+/***/ 858:
 /***/ ((module) => {
 
-module.exports = __WEBPACK_EXTERNAL_MODULE__399__;
+module.exports = __WEBPACK_EXTERNAL_MODULE__858__;
 
 /***/ })
 

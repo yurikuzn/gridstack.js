@@ -36,10 +36,10 @@ module.exports = {
   },
   // Espo
   externals: {
-      jquery: 'jQuery',
-      'jquery-ui': 'jQueryUi',
-      'jquery.ui': 'jQueryUi',
-      'jquery.ui.touch-punch': 'jQueryUiTP'
+      jquery: 'jquery',
+      'jquery-ui': 'jquery-ui',
+      'jquery.ui': 'jquery-ui',
+      'jquery.ui.touch-punch': 'jquery-ui-touch-punch'
   },
   // Espo
   optimization: {
